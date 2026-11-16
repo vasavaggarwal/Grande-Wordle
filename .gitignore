@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Production build output
+dist/
+
+# Local deployment state
+.vercel/
+
+# Environment files and local overrides
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs and generated reports
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+coverage/
+
+# Operating system files
+.DS_Store
+Thumbs.db
