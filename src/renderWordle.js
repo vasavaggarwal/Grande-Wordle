@@ -59,5 +59,5 @@ export async function renderWordle(canvas, result) {
 
   ctx.fillStyle = '#e5e5e5'
   ctx.font = '400 16px Arial, Helvetica, sans-serif'
-  ctx.fillText('try it out - website.com', width / 2, 607)
+  ctx.fillText('try it out - grandewordle.vercel.app', width / 2, 607)
 }
